@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import joblib
 from flask import Flask, request, jsonify
 from tensorflow.keras.models import load_model
 from preprocess import text_proses
@@ -61,4 +60,4 @@ def news_predict():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5001)
+    app.run(host='0.0.0.0', port=8080)
