@@ -9,9 +9,6 @@ from preprocess import text_proses
 app = Flask(__name__)
 
 # Mengunggah Model
-with open('preprocess_pipeline.pkl', 'rb') as file_1:
-  preprocess_pipeline = joblib.load(file_1)
-
 model_predict = load_model('fake_news_model')
 
 # Route untuk mengecek apakah backend jalan atau tidak
