@@ -1,2 +1,2 @@
-# Backend_Milestone_1_Phase_2
-Backend untuk deployment projek milestone 1 phase 2 Hacktiv8
+# Backend_Milestone_2_Phase_2
+Backend untuk deployment projek milestone 2 phase 2 Hacktiv8
