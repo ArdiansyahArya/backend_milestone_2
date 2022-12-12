@@ -4,7 +4,6 @@ import re
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
-nltk.download('all')
 
 stopwd = list(set(stopwords.words('english')))
 stopwd.append('u')
